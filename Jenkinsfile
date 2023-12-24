@@ -13,6 +13,11 @@ pipeline {
         sh('echo test')
       }
     }
+    stage('Complete') {
+      steps {
+        sh('echo completed')
+      }
+    }
  
   }
 }
